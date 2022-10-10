@@ -1,0 +1,112 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.wrapper {
+    background-color: #b3d3d369;
+    max-width: 1000px;
+    margin: 0 auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.2);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.header {
+    color: rgb(225 232 255);
+    background-color: #274d1aeb;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    text-shadow: 1px 2px 5px black;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(222, 233, 64);
+}
+
+.link:hover {
+    color: orangered;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.listItem {
+    text-align: center;
+    margin: 30px 0;
+    color: rgb(222, 233, 64);
+
+}
+
+.unorderedlist {
+    list-style-type: none;
+}
+
+.main-deskription {
+    padding: 40px;
+}
+
+.images {
+    margin-left: 250px;
+}
+
+.header-secondary {
+    text-align: center;
+    color: #335829;
+    text-shadow: 1px 1px 2px rgb(78, 75, 75);
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(235, 236, 220);
+
+}
+
+.tableCell {
+    border: 2px solid #335829;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.tableHeader {
+    color: #100f26;
+    background-color: #cbd5e5;
+}
+
+.tableRow:hover {
+    background-color: rgba(197, 194, 206, 0.411);
+}
+
+.table-secondary {
+    background-color: #d8e9e969;
+}
+
+.tableCell-secondary {
+    padding: 20px;
+    text-align: left;
+}
+
+.footer {
+    background-color: #d8e9e969;
+    text-align: center;
+    padding: 20px;
+}
+
+.linkFishster {
+    text-decoration: none;
+    color: #335829;
+}
+
+.linkFishster:hover {
+    color: orangered;
+    border-bottom: 1px solid;
+    outline: none;
+}

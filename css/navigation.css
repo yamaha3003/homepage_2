@@ -1,0 +1,22 @@
+.navigation {
+    margin: 20px;
+}
+
+.navigation__list {
+    list-style-type: none;
+}
+
+.navigation__item {
+    margin: 15px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: rgb(222, 233, 64);
+}
+
+.navigation__link:hover {
+    color: orangered;
+    border-bottom: 1px solid;
+    outline: none;
+}

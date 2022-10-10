@@ -1,0 +1,87 @@
+.main {
+    padding: 40px;
+}
+
+.main__images {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.main__header {
+    text-align: center;
+    color: #335829;
+    text-shadow: 1px 1px 2px rgb(78, 75, 75);
+}
+
+.main__header--highlighted {
+    color: #000;
+    text-shadow: none;
+}
+
+.main__paragraph {
+    color: #333;
+}
+
+.main__paragraph--highlighted {
+    color: orangered;
+}
+
+.main__list {
+    color: #333;
+}
+
+.main__button {
+    color: #335829;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.main__button:hover {
+    color: orangered;
+    outline: none;
+    box-shadow: 5px 5px 5px orangered;
+
+}
+
+.main__table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(246 247 234)
+}
+
+.main__table--dark {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #16380d;
+    color: rgb(222, 233, 64);
+}
+
+.table__cell {
+    border: 2px solid #335829;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.table__cell--header {
+    color: #100f26;
+    background-color: #cbd5e5;
+}
+
+.table__row:hover {
+    background-color: rgba(197, 194, 206, 0.411);
+}
+
+.main__table--invisible {
+    background-color: #d8e9e969;
+}
+
+.table__cell--invisible {
+    padding: 20px;
+    text-align: left;
+    border: none;
+}
