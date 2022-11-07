@@ -1,13 +1,23 @@
-console.log("Witam! Proszę zbadać moją prace domową");
+{
+    const welcome = () => {
+        console.log("Witam! Proszę zbadać moją prace domową");
+    }
 
-let main__button = document.querySelector(".main__button");
-let main__table = document.querySelector(".main__table");
-let there__name = document.querySelector(".there__name");
+    const toggleBackroundTable = () => {
+        const main__table = document.querySelector(".main__table");
+        const there__name = document.querySelector(".there__name");
+        main__table.classList.toggle("main__table--dark");
 
-main__button.addEventListener("click", () => {
+        there__name.innerText = main__table.classList.contains("main__table--dark") ? "biały" : "zielony";
 
-    main__table.classList.toggle("main__table--dark");
+    };
+    const init = () => {
+        const main__button = document.querySelector(".main__button");
+        main__button.addEventListener("click", toggleBackroundTable);
 
-    there__name.innerText = main__table.classList.contains("main__table--dark") ? "biały" : "zielony";
+        welcome();
+    }
 
-});
+    init();
+}
+
